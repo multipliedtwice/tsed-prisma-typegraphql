@@ -1,0 +1,8 @@
+{
+    "env": {
+        "PORT": {
+            "description": "The port to use.",
+            "value": 8080
+        }
+    }
+}

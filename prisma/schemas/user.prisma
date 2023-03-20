@@ -1,0 +1,9 @@
+model user {
+  id          String         @id @default(uuid()) // UUID
+  email       String         @unique
+  externalId  String         @unique
+  displayName String
+  profile     talentProfile?
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+}
